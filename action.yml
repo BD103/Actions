@@ -9,5 +9,7 @@ branding:
   icon: "hexagon"
   color: "blue"
 runs:
-  using: "docker"
-  image: "Dockerfile"
+  using: "composite"
+  steps:
+    - run: "bash script.sh"
+      shell: "bash"
