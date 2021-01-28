@@ -7,5 +7,6 @@ if [ $ACTIONTYPE == "lint" ]; then
 elif [ $ACTIONTYPE == "test" ]; then
   pip install -U pytest
   pytest
-else; then
+else
   echo "Invalid actionType Config"
+fi
