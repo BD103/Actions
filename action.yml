@@ -16,3 +16,5 @@ runs:
         python-version: 3.8
     - run: "bash script.sh"
       shell: "bash"
+      env:
+        ACTIONTYPE: ${{ inputs.actionType }}
