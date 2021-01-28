@@ -1,1 +1,13 @@
-
+name: "BD103 Actions"
+author: "BD103"
+description: "A composite of handy actions for use in a repository."
+inputs:
+  actionType:
+    description: "What action to run"
+    required: true
+branding:
+  icon: "hexagon"
+  color: "blue"
+runs:
+  using: "docker"
+  image: "Dockerfile"
